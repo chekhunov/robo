@@ -1,42 +1,4 @@
-*,
- *::before,
- *::after {
-     box-sizing: border-box;
-     margin: 0;
-     padding: 0;
- }
-
- body,
- h3,
- p {
-     margin: 0;
-     font-family: Montserrat;
-     font-style: normal;
- }
-
- a:not([class]) {
-     text-decoration-skip-ink: auto;
- }
-
- img {
-     max-width: 100%;
-     display: block;
- }
-
- input,
- button {
-     font: inherit;
- }
-
- body>div#app {
-     margin: 0;
-     height: 2467px;
-     background: radial-gradient(82.33% 70.44% at 50% 0%, #26394D 0%, #212529 100%);
- }
-
- button {
-     outline: none;
- }
+@import 'global';
 
  .Center {
      margin: auto;
@@ -241,7 +203,7 @@
      width: 12px;
      height: 18px;
      top: 520px;
-     background: url(../img/vector.png) no-repeat;
+     background-image: url('../img/vector.png') no-repeat;
  }
 
  .sv {
@@ -542,7 +504,7 @@
  .custom-radio>input:checked+span::before {
      border-color: white;
      background-color: none;
-     background-image: url("../img/Ellipse 7.png");
+     background-image: url('../img/Ellipse 7.png');
      background-size: 16px;
  }
 
@@ -648,11 +610,11 @@
  }
 
  .custom-checkbox:checked+label::before {
-     background-image: url("../img/ok.png");
+    background-image: url('../img/ok.png');
  }
 
  .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
-     border-color: #4C5865;
+    border-color: #4C5865;
  }
 
  .custom-checkbox:focus:not(:checked)+label::before {
@@ -685,7 +647,7 @@
      flex-grow: 0;
      background-repeat: no-repeat;
      background-position: center center;
-     background-image: url("../img/Icon meh.png");
+     background-image: url('../img/Icon meh.png');
  }
 
  .Iconmeh-checkbox:focus+label::before {
@@ -697,11 +659,11 @@
  }
 
  .Iconmeh-checkbox:checked+label::before {
-     background-image: url("../img/Icon meh2.png");
+     background-image: url('../img/Icon meh2.png');
  }
 
  .Iconmeh-checkbox:disabled+label::before {
-     background-image: url("../img/Icon meh1.png");
+     background-image: url('../img/Icon meh1.png');
  }
 
  .hear-checkbox {
@@ -874,7 +836,7 @@
      height: 52px;
      left: 34px;
      top: 48px;
-     background: url(../img/12.png);
+     background: url('../img/12.png');
  }
 
  .NotCoin {
@@ -883,7 +845,7 @@
      height: 58px;
      left: 34px;
      top: 48px;
-     background: url(../img/bag.png);
+     background: url('../img/bag.png');
      background-size: cover;
  }
 

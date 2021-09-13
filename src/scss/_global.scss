@@ -1,0 +1,39 @@
+*,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body,
+ h3,
+ p {
+     margin: 0;
+     font-family: Montserrat;
+     font-style: normal;
+ }
+
+ a:not([class]) {
+     text-decoration-skip-ink: auto;
+ }
+
+ img {
+     max-width: 100%;
+     display: block;
+ }
+
+ input,
+ button {
+     font: inherit;
+ }
+
+ body>div#app {
+     margin: 0;
+     height: 2467px;
+     background: radial-gradient(82.33% 70.44% at 50% 0%, #26394D 0%, #212529 100%);
+ }
+
+ button {
+     outline: none;
+ }
